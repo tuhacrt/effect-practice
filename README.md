@@ -1,6 +1,6 @@
-# TypeScript-Starter
+# Effect Practice
 
-A general TypeScript-Starter using : "nodejs", "pnpm", "vitest"
+A practice repo for effect library.
 
 ## License
 

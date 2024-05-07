@@ -33,6 +33,10 @@
     "markdown",
     "json",
     "jsonc",
-    "yaml"
+    "yaml",
+    "toml",
+    "gql",
+    "graphql",
+    "astro"
   ]
 }

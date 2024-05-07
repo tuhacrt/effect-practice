@@ -7,6 +7,10 @@ settings:
 importers:
 
   .:
+    dependencies:
+      effect:
+        specifier: ^3.1.2
+        version: 3.1.2
     devDependencies:
       '@antfu/eslint-config':
         specifier: ^2.16.2
@@ -1252,6 +1256,9 @@ packages:
 
   eastasianwidth@0.2.0:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
+
+  effect@3.1.2:
+    resolution: {integrity: sha512-XakSWck6w6ROqKyEys0tKE9K6Gx2p8W/09u2ZTEZZrneO5Z3QEdPhXzWTyC73kD5zUvfJinZLVIas8I1xoHaTg==}
 
   electron-to-chromium@1.4.757:
     resolution: {integrity: sha512-jftDaCknYSSt/+KKeXzH3LX5E2CvRLm75P3Hj+J/dv3CL0qUYcOt13d5FN1NiL5IJbbhzHrb3BomeG2tkSlZmw==}
@@ -4064,6 +4071,8 @@ snapshots:
   dotenv@16.4.5: {}
 
   eastasianwidth@0.2.0: {}
+
+  effect@3.1.2: {}
 
   electron-to-chromium@1.4.757: {}
 

@@ -1,8 +1,11 @@
 import antfu from '@antfu/eslint-config'
 
 export default antfu(
-  { ignores: ['node_modules', 'dist'] },
   {
+    stylistic: {
+      indent: 2,
+      quotes: 'single',
+    },
     rules: {
       'style/brace-style': ['error', '1tbs', { allowSingleLine: true }],
       'import/order': [
@@ -15,5 +18,6 @@ export default antfu(
       ],
       'ts/consistent-type-definitions': ['error', 'type'],
     },
+    ignores: ['node_modules', 'dist'],
   },
 )

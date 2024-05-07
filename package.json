@@ -1,9 +1,9 @@
 {
-  "name": "typescript-starter",
+  "name": "effect-practice",
   "type": "module",
   "version": "0.0.0",
   "packageManager": "pnpm@9.1.0",
-  "description": "A Typescript-starter from Tuhacrt",
+  "description": "A practice repo for effect library.",
   "author": "Tuhacrt <a067800497@gmail.com>",
   "license": "MIT",
   "keywords": [],
@@ -16,12 +16,16 @@
     "build": "unbuild",
     "dev": "unbuild --stub",
     "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
     "prepublishOnly": "nr build",
     "release": "bumpp && npm publish",
     "start": "esno src/index.ts",
     "test": "vitest",
     "typecheck": "tsc --noEmit",
     "prepare": "simple-git-hooks"
+  },
+  "dependencies": {
+    "effect": "^3.1.2"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.16.2",
