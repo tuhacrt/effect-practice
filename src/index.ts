@@ -1,1 +1,5 @@
-export const complexArray = [1, 2, 3, undefined]
+import { Console, Effect } from 'effect'
+
+export const program = Console.log('Hello, World!')
+
+Effect.runSync(program)
